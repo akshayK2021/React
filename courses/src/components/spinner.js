@@ -1,0 +1,13 @@
+
+function Spinner(){
+    return(
+        <div className="flex flex-col item-center space-y-2">
+            <div className="spinner ">
+             
+            </div>
+            <p className="text-emerald-400 text-lg font-semibold">Loading.....</p>
+        </div>
+    );
+}
+
+export default Spinner;
